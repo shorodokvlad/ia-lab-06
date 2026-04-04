@@ -76,6 +76,5 @@ def main():
         sim.stopSimulation()
         print("Simulare oprita.")
 
-
 if __name__ == '__main__':
     main()

@@ -91,6 +91,5 @@ def main():
         sim.setJointTargetVelocity(right_motor, 0.0)
         sim.stopSimulation()
 
-
 if __name__ == '__main__':
     main()

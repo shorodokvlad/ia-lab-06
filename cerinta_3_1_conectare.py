@@ -43,6 +43,5 @@ def main():
         dist_str = f"{distance:.3f} m" if detected else "---"
         print(f"  Sensor[{i:2d}]: detectat={str(detected):<5},  distanta={dist_str}")
 
-
 if __name__ == '__main__':
     main()

@@ -84,6 +84,5 @@ def main():
     except KeyboardInterrupt:
         print("\nMonitorizare oprita.")
 
-
 if __name__ == '__main__':
     main()
