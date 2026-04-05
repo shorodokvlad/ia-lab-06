@@ -13,6 +13,17 @@ Am implementat un comportament reactiv de bază care adaugă o stare de recupera
 
 Starea curentă este afișată la fiecare pas, iar scriptul continuă automat din `FORWARD` după manevra de recuperare.
 
+## Tema B - Braitenberg cu înregistrare de date
+**Fișier:** `tema/tema_b_braitenberg_logging.py`
+**Nivel:** Mediu-avansat
+
+Am extins vehiculul Braitenberg din cerința 3.5 cu înregistrarea datelor de simulare. La fiecare iterație, se salvează într-un fișier CSV (`tema/log_braitenberg.csv`) coloanele: `timestamp`, `v_left`, `v_right`, `s0`, `s1`, …, `s7`, `pos_x`, `pos_y`.
+
+La finalul rulării (după Ctrl+C), se generează cu **Matplotlib** 3 grafice salvate ca imagini PNG:
+1. Traiectoria robotului în planul XY (`pos_x` vs `pos_y`).
+2. Vitezele `v_left` și `v_right` în funcție de timp.
+3. Un *heatmap* al activării senzorilor în timp (`s0`–`s7` pe axa Y, timpii pe axa X).
+
 ## Tema C - Robot Explorer
 **Fișier:** `tema_c_explorer.py`
 **Nivel:** Avansat
