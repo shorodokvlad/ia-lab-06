@@ -2,6 +2,14 @@
 
 Acest director conține implementările din cadrul laboratorului 6 (Comportamente reactive și vehicule Braitenberg în CoppeliaSim).
 
+## Cerințe de Bază (3.1 - 3.6)
+Acest laborator include scripturile de bază realizate pe parcurs:
+- **`cerinta_3_1_conectare.py`**: Conectarea la serverul CoppeliaSim (ZMQ Remote API) și inspectarea scenei/senzorilor principali.
+- **`cerinta_3_2_patrat.py`**: Controlul motoarelor (buclă deschisă) prin deplasarea robotului într-un pătrat.
+- **`cerinta_3_3_senzori.py`**: Citirea valorilor celor 16 senzori și afișarea într-un dashboard interactiv.
+- **`cerinta_3_4_stop_obstacol.py`**: Comportament reactiv simplu pentru a opri robotul în fața unui obstacol critic.
+- **`cerinta_3_5_braitenberg.py`**: Vehicul Braitenberg de evitare a obstacolelor (tip „Frică”), modulând proporțional viteza bazat pe senzori asimetrici.
+- **`cerinta_3_6_wall_following.py`**: Un controller de tip P utilizat pentru „wall-following” la peretele din dreapta.
 ## Tema A - Evitare cu recuperare
 **Fișier:** `tema/tema_a_recuperare.py`
 **Nivel:** Mediu
