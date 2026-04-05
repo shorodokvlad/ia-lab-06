@@ -1,6 +1,17 @@
 # Teme Laborator 6 - Inteligență Artificială
 
-Acest director conține implementările pentru temele opționale C și D din cadrul laboratorului 6 (Comportamente reactive și vehicule Braitenberg în CoppeliaSim).
+Acest director conține implementările pentru temele opționale A, C și D din cadrul laboratorului 6 (Comportamente reactive și vehicule Braitenberg în CoppeliaSim).
+
+## Tema A - Evitare cu recuperare
+**Fișier:** `tema/tema_a_recuperare.py`
+**Nivel:** Mediu
+
+Am implementat un comportament reactiv de bază care adaugă o stare de recuperare la cerința de oprire la obstacol. Robotul folosește o mașină de stări cu trei stări:
+- `FORWARD`: merge înainte.
+- `BACKWARD`: când obstacolul frontal este prea aproape (`< 0.5 m`), robotul dă înapoi pentru 1 secundă.
+- `TURNING`: după mersul înapoi, robotul virează aleatoriu la stânga sau la dreapta aproximativ 90°.
+
+Starea curentă este afișată la fiecare pas, iar scriptul continuă automat din `FORWARD` după manevra de recuperare.
 
 ## Tema C - Robot Explorer
 **Fișier:** `tema_c_explorer.py`
