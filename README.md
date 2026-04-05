@@ -1,6 +1,6 @@
 # Teme Laborator 6 - Inteligență Artificială
 
-Acest director conține implementările pentru temele opționale A, C și D din cadrul laboratorului 6 (Comportamente reactive și vehicule Braitenberg în CoppeliaSim).
+Acest director conține implementările din cadrul laboratorului 6 (Comportamente reactive și vehicule Braitenberg în CoppeliaSim).
 
 ## Tema A - Evitare cu recuperare
 **Fișier:** `tema/tema_a_recuperare.py`
